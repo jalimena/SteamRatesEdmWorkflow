@@ -22,8 +22,15 @@ import sys
 makeInputFilesList = True
 #Directory where your input root files are located
 #inputFilesDir = "/eos/cms/store/group/dpg_trigger/comm_trigger/TriggerStudiesGroup/STEAM/dbeghin/NoCustom"
-#inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/PU60"
-inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/PU71"
+#inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/inclusive/PU60"
+#inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/inclusive/PU71"
+#inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/originalPathOnly/PU60"
+#inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/originalPathOnly/PU71"
+#inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/newSignalOnly/PU60"
+#inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/newSignalOnly/PU71"
+#inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/newSignalPlusBackup/PU60"
+inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/newSignalPlusBackup/PU71"
+
 #Were your input files produced by STEAM? If yes, file_type = "custom"
 #Are these raw data files?
 #If yes, are you running specifically on L1Accept files? Then file_type = "L1Accept"
@@ -43,8 +50,8 @@ json_file = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6
 
 #Do you wish to use the dataset/group/etc. maps? The maps are unnecessary if you're an HLT developer and you're just testing your new path rate.
 #If you don't want to use any maps, set the variable below to "nomaps"
-maps = "nomaps" #recommended if you're an HLT dev
-#maps = "somemaps" #if you want dataset/group/etc. rates but no dataset merging study
+#maps = "nomaps" #recommended if you're an HLT dev
+maps = "somemaps" #if you want dataset/group/etc. rates but no dataset merging study
 #maps = "allmaps" #if you want to study dataset merging
 
 #Do you wish to use any unusual (non-default) options for the job flavour, and the number of files processed per job?

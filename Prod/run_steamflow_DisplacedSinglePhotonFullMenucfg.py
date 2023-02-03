@@ -1,5 +1,8 @@
 # Import HLT configuration #
-from hltDataDisplacedSinglePhotonFullMenu_config import *
+#from hltDataDisplacedSinglePhotonFullMenu_originalPathOnly_config import *
+#from hltDataDisplacedSinglePhotonFullMenu_newSignalOnly_config import *
+from hltDataDisplacedSinglePhotonFullMenu_newSignalPlusBackup_config import *
+
 
 # STEAM Customization #
 
@@ -11,7 +14,8 @@ columnL1PS=1           # choose the tighter column ( 0 <=> tightest )
 outputName="hlt.root"  # output file name
 
 # Input
-from list_cff_PU60 import inputFileNames
+#from list_cff_PU60 import inputFileNames
+from list_cff_PU71 import inputFileNames
 process.source = cms.Source("PoolSource",
     fileNames = cms.untracked.vstring(inputFileNames),
     inputCommands = cms.untracked.vstring('keep *')
