@@ -1,8 +1,6 @@
 # Import HLT configuration #
-#from hltDataDisplacedSinglePhotonFullMenu_originalPathOnly_config import *
-#from hltDataDisplacedSinglePhotonFullMenu_newSignalOnly_config import *
-from hltDataDisplacedSinglePhotonFullMenu_newSignalPlusBackup_config import *
-
+#from hltDataDisplacedSinglePhotonFullMenu_config import *
+from hltDataDisplacedSinglePhotonFullMenu_originalPathOnly_config import *
 
 # STEAM Customization #
 

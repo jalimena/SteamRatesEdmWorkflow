@@ -25,11 +25,13 @@ makeInputFilesList = True
 #inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/inclusive/PU60"
 #inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/inclusive/PU71"
 #inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/originalPathOnly/PU60"
-#inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/originalPathOnly/PU71"
+inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/originalPathOnly/PU71"
 #inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/newSignalOnly/PU60"
 #inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/newSignalOnly/PU71"
 #inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/newSignalPlusBackup/PU60"
-inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/newSignalPlusBackup/PU71"
+#inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/newSignalPlusBackup/PU71"
+#inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/newPaths/PU60"
+#inputFilesDir = "/afs/cern.ch/work/j/jalimena/HLT_saveDisplacedPhotonPath/CMSSW_12_6_0_pre5/src/SteamRatesEdmWorkflow/Prod/newPaths/PU71"
 
 #Were your input files produced by STEAM? If yes, file_type = "custom"
 #Are these raw data files?
